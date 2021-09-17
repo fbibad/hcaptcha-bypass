@@ -10,7 +10,7 @@ namespace hcapby
 {
     public class Browser
     {
-        string chromedriverPATH = ""; #YOUR CHROMEDRIVER PATH
+        string chromedriverPATH = ""; //YOUR CHROMEDRIVER PATH
         public IWebDriver Driver { get; set; }
         public void Run(ChromeOptions browserOptions = null, bool headless = true)
         {
